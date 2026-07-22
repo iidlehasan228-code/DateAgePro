@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base dark:bg-base-dark text-ink dark:text-ink-dark transition-colors duration-300;
+}
+
+/* Subtle grid texture used behind the hero — kept quiet, not decorative noise */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(148, 163, 184, 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(148, 163, 184, 0.06) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+::selection {
+  background-color: #6D5EF8;
+  color: #ffffff;
+}
+
+/* number ticker tabular alignment so digits don't jitter horizontally */
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
