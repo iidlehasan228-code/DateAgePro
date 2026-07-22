@@ -12,7 +12,7 @@ const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display" }
 
 // Used to build absolute URLs for Open Graph tags and the sitemap.
 // Set NEXT_PUBLIC_SITE_URL in production (e.g. https://dateagepro.com).
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dateagepro.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://date-age-pro.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -61,7 +61,7 @@ export const viewport: Viewport = {
 };
 
 // TODO: Replace with your real AdSense publisher ID (starts with ca-pub-)
-const ADSENSE_CLIENT_ID = "ca-pub-XXXXXXXXXXXXXXXX";
+const ADSENSE_CLIENT_ID = "ca-pub-1997946834342523";
 
 export default function RootLayout({
   children,

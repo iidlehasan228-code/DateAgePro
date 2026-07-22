@@ -12,7 +12,7 @@ interface AdUnitProps {
 }
 
 // TODO: Replace with your real AdSense publisher ID (starts with ca-pub-)
-const ADSENSE_CLIENT_ID = "ca-pub-XXXXXXXXXXXXXXXX";
+const ADSENSE_CLIENT_ID = "ca-pub-1997946834342523";
 
 declare global {
   interface Window {
