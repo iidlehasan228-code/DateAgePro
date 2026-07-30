@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-line dark:border-line-dark pt-6 text-xs text-muted dark:text-muted-dark">
-          © {new Date().getFullYear()} Age Calculator. Built with Next.js, Tailwind CSS, and Supabase.
+          © {new Date().getFullYear()} Age Calculator. All rights reserved.
         </div>
       </div>
     </footer>

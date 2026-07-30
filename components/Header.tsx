@@ -18,7 +18,7 @@ export default function Header() {
             <Clock size={18} strokeWidth={2.5} />
           </span>
           <span className="font-display text-lg font-bold tracking-tight">
-            DateAge<span className="text-accent">Pro</span>
+            Age<span className="text-accent">Calculator</span>
           </span>
         </div>
 
