@@ -11,39 +11,39 @@ const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display" });
 
 // Used to build absolute URLs for Open Graph tags and the sitemap.
-// Set NEXT_PUBLIC_SITE_URL in production (e.g. https://dateagepro.com).
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dateagepro.com";
+// Set NEXT_PUBLIC_SITE_URL in production (e.g. https://agecalculator.com).
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://agecalculator.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "DateAgePro — Find Your Exact Age Instantly",
-    template: "%s | DateAgePro",
+    default: "Age Calculator — Find Your Exact Age Instantly",
+    template: "%s | Age Calculator",
   },
   description:
-    "DateAgePro.com instantly calculates your exact age in years, months, days, and live seconds from your date of birth. Free, fast, and private.",
+    "Age Calculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth. Free, fast, and private.",
   keywords: [
     "age calculator",
     "calculate age",
     "date of birth calculator",
     "how old am i",
     "exact age calculator",
-    "dateagepro",
+    "age calculator",
   ],
-  authors: [{ name: "DateAgePro" }],
+  authors: [{ name: "Age Calculator" }],
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "DateAgePro",
-    title: "DateAgePro — Find Your Exact Age Instantly",
+    siteName: "Age Calculator",
+    title: "Age Calculator — Find Your Exact Age Instantly",
     description:
-      "DateAgePro.com instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
+      "Age Calculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "DateAgePro — Find Your Exact Age Instantly",
+    title: "Age Calculator — Find Your Exact Age Instantly",
     description:
-      "DateAgePro.com instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
+      "Age Calculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
   },
   robots: {
     index: true,

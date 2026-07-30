@@ -6,8 +6,8 @@ import AdUnit from "@/components/AdUnit";
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
-  name: "DateAgePro — Age Calculator",
-  url: "https://dateagepro.com",
+  name: "Age Calculator — Find Your Exact Age Instantly",
+  url: "https://agecalculator.com",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
   offers: {
@@ -16,7 +16,7 @@ const jsonLd = {
     priceCurrency: "USD",
   },
   description:
-    "DateAgePro.com instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
+    "Age Calculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
 };
 
 const faqs = [
@@ -50,13 +50,13 @@ export default function Home() {
         <section className="bg-grid border-b border-line dark:border-line-dark px-6 py-16 sm:py-20">
           <div className="mx-auto max-w-3xl text-center">
             <span className="mb-4 inline-block rounded-full bg-accent-soft dark:bg-accent-darksoft px-4 py-1 text-xs font-semibold uppercase tracking-widest text-accent">
-              DateAgePro.com &nbsp;•&nbsp; Free &amp; Instant
+              Age Calculator &nbsp;•&nbsp; Free &amp; Instant
             </span>
             <h1 className="font-display text-4xl font-bold leading-tight tracking-tight sm:text-5xl">
-              DateAgePro — Find Your Exact Age, <span className="text-accent">Down to the Second.</span>
+              Age Calculator — Find Your Exact Age, <span className="text-accent">Down to the Second.</span>
             </h1>
             <p className="mx-auto mt-4 max-w-xl text-base text-muted dark:text-muted-dark sm:text-lg">
-              DateAgePro is a modern, accurate age calculator. Enter your date of birth and
+              Age Calculator is a modern, accurate tool. Enter your date of birth and
               instantly see your age in years, months, and days — plus a live counter of
               every second you&apos;ve been alive.
             </p>

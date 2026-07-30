@@ -14,7 +14,7 @@ export default function ContactForm() {
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
 
-    const subject = encodeURIComponent(`Message from ${name || "DateAgePro visitor"}`);
+    const subject = encodeURIComponent(`Message from ${name || "Age Calculator visitor"}`);
     const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
 
     // Opens the visitor's default email client pre-filled with their message.

@@ -7,10 +7,10 @@ export default function Footer() {
         <div className="flex flex-col items-start justify-between gap-8 md:flex-row">
           <div className="max-w-sm">
             <span className="font-display text-base font-bold">
-              DateAge<span className="text-accent">Pro</span>
+              Age<span className="text-accent">Calculator</span>
             </span>
             <p className="mt-2 text-sm text-muted dark:text-muted-dark">
-              DateAgePro.com — a free, private age calculator. Nothing is stored beyond an
+              Age Calculator — a free, private age calculator. Nothing is stored beyond an
               anonymous calculation log used to improve the tool.
             </p>
           </div>
@@ -36,7 +36,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 border-t border-line dark:border-line-dark pt-6 text-xs text-muted dark:text-muted-dark">
-          © {new Date().getFullYear()} DateAgePro.com. Built with Next.js, Tailwind CSS, and Supabase.
+          © {new Date().getFullYear()} Age Calculator. Built with Next.js, Tailwind CSS, and Supabase.
         </div>
       </div>
     </footer>

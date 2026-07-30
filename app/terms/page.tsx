@@ -3,20 +3,20 @@ import LegalPageShell from "@/components/LegalPageShell";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
-  description: "The terms and conditions governing your use of DateAgePro.com.",
+  description: "The terms and conditions governing your use of Age Calculator.",
 };
 
 export default function TermsPage() {
   return (
     <LegalPageShell title="Terms of Service" updated="July 22, 2026">
       <p>
-        By accessing or using DateAgePro.com (the &quot;Service&quot;), you agree to be bound by these
+        By accessing or using Age Calculator (the &quot;Service&quot;), you agree to be bound by these
         Terms of Service. If you do not agree, please do not use the Service.
       </p>
 
       <h2>Use of the Service</h2>
       <p>
-        DateAgePro provides a free tool for calculating a person&apos;s age from a given date of
+        Age Calculator provides a free tool for calculating a person&apos;s age from a given date of
         birth. The Service is provided for informational and personal use only.
       </p>
 
@@ -30,7 +30,7 @@ export default function TermsPage() {
 
       <h2>Limitation of Liability</h2>
       <p>
-        To the fullest extent permitted by law, DateAgePro and its operators shall not be
+        To the fullest extent permitted by law, Age Calculator and its operators shall not be
         liable for any indirect, incidental, or consequential damages arising from your use
         of, or inability to use, the Service.
       </p>

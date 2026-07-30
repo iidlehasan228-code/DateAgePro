@@ -3,14 +3,14 @@ import LegalPageShell from "@/components/LegalPageShell";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "How DateAgePro.com collects, uses, and protects your information.",
+  description: "How Age Calculator collects, uses, and protects your information.",
 };
 
 export default function PrivacyPage() {
   return (
     <LegalPageShell title="Privacy Policy" updated="July 22, 2026">
       <p>
-        DateAgePro.com (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) operates this website. This page explains
+        Age Calculator (&quot;we&quot;, &quot;us&quot;, or &quot;our&quot;) operates this website. This page explains
         what information we collect when you use the age calculator and why.
       </p>
 
