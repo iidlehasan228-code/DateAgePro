@@ -11,8 +11,8 @@ const body = Inter({ subsets: ["latin"], variable: "--font-body" });
 const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display" });
 
 // Used to build absolute URLs for Open Graph tags and the sitemap.
-// Set NEXT_PUBLIC_SITE_URL in production (e.g. https://agecalculator.com).
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://agecalculator.com";
+// Set NEXT_PUBLIC_SITE_URL in production (e.g. https://date-age-pro.vercel.app).
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://date-age-pro.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),

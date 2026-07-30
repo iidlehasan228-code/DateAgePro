@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://dateagepro.com";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://date-age-pro.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes = ["", "/privacy", "/terms", "/contact"];

@@ -7,7 +7,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "WebApplication",
   name: "Age Calculator — Find Your Exact Age Instantly",
-  url: "https://agecalculator.com",
+  url: "https://date-age-pro.vercel.app",
   applicationCategory: "UtilitiesApplication",
   operatingSystem: "Any",
   offers: {
