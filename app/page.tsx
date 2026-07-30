@@ -81,12 +81,12 @@ export default function Home() {
         {/* FAQ */}
         <section id="faq" className="border-t border-line dark:border-line-dark px-6 py-16">
           <div className="mx-auto max-w-2xl">
-            <h2 className="font-display mb-8 text-2xl font-bold sm:text-3xl">Frequently Asked Questions</h2>
-            <div className="space-y-6">
+            <h2 className="font-display mb-10 text-2xl font-bold sm:text-3xl text-center">Frequently Asked Questions</h2>
+            <div className="space-y-0">
               {faqs.map((item) => (
-                <div key={item.q} className="border-b border-line dark:border-line-dark pb-6">
-                  <h3 className="mb-2 font-semibold">{item.q}</h3>
-                  <p className="text-sm text-muted dark:text-muted-dark">{item.a}</p>
+                <div key={item.q} className="border-b border-line dark:border-line-dark py-6">
+                  <h3 className="mb-3 font-semibold text-base">{item.q}</h3>
+                  <p className="text-sm text-muted dark:text-muted-dark leading-relaxed">{item.a}</p>
                 </div>
               ))}
             </div>
