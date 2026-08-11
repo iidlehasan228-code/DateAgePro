@@ -12,13 +12,13 @@ const display = Space_Grotesk({ subsets: ["latin"], variable: "--font-display" }
 
 // Used to build absolute URLs for Open Graph tags and the sitemap.
 // Set NEXT_PUBLIC_SITE_URL in production (e.g. https://date-age-pro.vercel.app).
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://date-age-pro.vercel.app";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://agecalcl.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "Age Calculator — Find Your Exact Age Instantly",
-    template: "%s | Age Calculator",
+    default: "AgeCalculator — Find Your Exact Age Instantly",
+    template: "%s | AgeCalculator",
   },
   description:
     "Age Calculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth. Free, fast, and private.",
@@ -34,16 +34,16 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     url: siteUrl,
-    siteName: "Age Calculator",
-    title: "Age Calculator — Find Your Exact Age Instantly",
+    siteName: "AgeCalculator",
+    title: "AgeCalculator — Find Your Exact Age Instantly",
     description:
-      "Age Calculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
+      "AgeCalculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Age Calculator — Find Your Exact Age Instantly",
+    title: "AgeCalculator — Find Your Exact Age Instantly",
     description:
-      "Age Calculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
+      "AgeCalculator instantly calculates your exact age in years, months, days, and live seconds from your date of birth.",
   },
   robots: {
     index: true,
@@ -76,7 +76,7 @@ export default function RootLayout({
           async
           src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT_ID}`}
           crossOrigin="anonymous"
-          strategy="afterInteractive"
+          strategy="beforeInteractive"
         />
       </head>
       <body className={`${body.variable} ${display.variable} font-body antialiased`}>
