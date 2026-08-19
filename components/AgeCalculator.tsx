@@ -42,7 +42,7 @@ export default function AgeCalculator() {
       months: breakdown.months,
       days: breakdown.days,
     });
-    setSaveStatus(error ? "error" : "saved");
+    setSaveStatus(error ? "idle" : "saved");
   }
 
   return (
